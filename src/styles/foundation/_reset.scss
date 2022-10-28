@@ -1,0 +1,46 @@
+// ブラウザのUAスタイルシートのすべてのスタイルを削除します、displayは除く
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+// box-sizingの優先値
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+//リストのスタイル（箇条書き・番号）を削除します
+//normalize.cssで使用する場合
+ol,
+ul {
+  list-style: none;
+}
+
+// 画像がコンテナを超えないようにするため
+img {
+  max-width: 100%;
+}
+
+// テーブルのセル間のスペースを削除します
+table {
+  border-collapse: collapse;
+}
+
+// Safariのtextarea要素のwhite-spaceプロパティを元に戻します
+textarea {
+  white-space: revert;
+}
+
+// 基本フォントサイズを 1rem=10pxにします
+:root {
+  font-size: 62.5%;
+}
+
+// html・bodyの余白を0にします
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

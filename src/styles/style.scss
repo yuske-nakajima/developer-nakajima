@@ -1,0 +1,20 @@
+//foundation/ リセットCSSの役割
+@import 'foundation/reset';
+
+//setting/ 変数の定義
+@import 'setting/color';
+@import 'setting/typography';
+
+//function/ 関数やmixinの定義
+@import 'function/media-query';
+
+//layout/ レイアウトBlockの定義（インナー幅など）
+
+//component/ コンポーネントBlockの定義（ボタンや見出しなど）
+
+//project/ プロジェクトBlockの定義（その他Blockすべて）
+
+//external/ 外部クラスを上書き（定義）する用（WordPressのクラスとかライブラリのクラスのベースの上書き）
+
+//utility/ 汎用クラスの定義
+@import 'utility/utility';
