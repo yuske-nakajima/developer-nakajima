@@ -1,0 +1,20 @@
+.logo {
+  object-fit: contain;
+  height: 10rem;
+
+  @include mq('sm') {
+    min-height: 20rem;
+  }
+
+  @include mq('md') {
+    min-height: 30rem;
+  }
+
+  @include mq('lg') {
+    min-height: 50rem;
+  }
+
+  @include mq('xl') {
+    min-height: 70rem;
+  }
+}

@@ -1,0 +1,22 @@
+.mainNavigationContainer {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+  font-size: 2rem;
+  width: 100%;
+
+  & > * {
+    text-align: center;
+  }
+
+  & > .contents-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  & > .icon-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

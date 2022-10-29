@@ -3,14 +3,20 @@
 
 //setting/ 変数の定義
 @import 'setting/color';
+@import 'setting/app_color';
 @import 'setting/typography';
 
 //function/ 関数やmixinの定義
 @import 'function/media-query';
 
 //layout/ レイアウトBlockの定義（インナー幅など）
+@import 'layout/mainNavigationContainer';
+@import 'layout/xyCenterContainer';
 
 //component/ コンポーネントBlockの定義（ボタンや見出しなど）
+@import 'component/logo';
+@import 'component/icon';
+@import 'component/linkImage';
 
 //project/ プロジェクトBlockの定義（その他Blockすべて）
 
