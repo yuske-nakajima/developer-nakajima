@@ -1,0 +1,1 @@
+- 実装計画は.idea/temp/issues/配下にmarkdownで記載する
